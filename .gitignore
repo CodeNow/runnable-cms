@@ -1,0 +1,4 @@
+*.orig
+_site
+.jekyll-metadata
+.sass-cache
