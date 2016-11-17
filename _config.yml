@@ -20,16 +20,6 @@ gems:
   - jekyll-timeago
 
 permalink: /:title
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: page
-  -
-    scope:
-      path: ""
-      type: "posts"
 
 sass:
   sass_dir: _sass/
