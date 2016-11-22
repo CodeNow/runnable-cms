@@ -9,7 +9,7 @@
 title: Runnable CMS Articles
 email: support@runnable.com
 url: https://runnable.com # the base hostname & protocol for your site
-baseurl: /use-cases
+baseurl: /
 
 # Build settings
 markdown: kramdown
@@ -19,7 +19,7 @@ gems:
   - jekyll-sitemap
   - jekyll-timeago
 
-permalink: /:title
+permalink: /:categories/:title
 
 sass:
   sass_dir: _sass/
