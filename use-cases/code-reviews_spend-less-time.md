@@ -1,6 +1,6 @@
 ---
 title: Spend less time working on code reviews
-permalink: /spend-less-time-working-on-code-reviews
+permalink: /use-cases/spend-less-time-working-on-code-reviews
 tags:
 - 'code review'
 excerpt: Use Runnable to speed up code review.
