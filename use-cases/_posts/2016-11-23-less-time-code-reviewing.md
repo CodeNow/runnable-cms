@@ -1,6 +1,5 @@
 ---
 title: Spend less time working on code reviews
-category: code-review
 tags:
 - 'code review'
 excerpt: Use Runnable to speed up code review.
