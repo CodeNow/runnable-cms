@@ -1,7 +1,5 @@
 ---
 layout: default
-slug: codereview
-name: CodeReview
 ---
 
 <div class="grid-block col align-center hero">
