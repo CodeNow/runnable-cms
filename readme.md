@@ -4,7 +4,7 @@
 
 ### Requirements
 
-- Ruby (v2 or above)
+- Ruby (v2.2 or above)
 - RubyGems
 - Bundler (bundler.io)
 
