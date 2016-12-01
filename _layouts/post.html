@@ -9,5 +9,11 @@ layout: default
 <div class="grid-block grid-container col">
   <article class="article article-body">
     {{ content }}
+
+    <ul class="tags">
+      {% for tag in page.tags %}
+        <li>Tag: <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
+      {% endfor %}
+    </ul>
   </article>
 </div>
