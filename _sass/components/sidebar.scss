@@ -1,0 +1,14 @@
+
+
+.sidebar {
+  display: block;
+
+  @media (max-width: $screen-md) {
+    display: none;
+    width: 0px;
+  }
+
+  & a {
+    text-decoration: none;
+  }
+}

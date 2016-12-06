@@ -15,6 +15,7 @@
 
 // scss-lint:disable StringQuotes
 
+
 // defaults
 @import "jekyll/base";
 @import "jekyll/layout";
@@ -27,6 +28,7 @@
 @import "globals/utility";
 
 // components
+@import "components/sidebar";
 @import "components/buttons";
 
 // landing specific
@@ -39,3 +41,4 @@
 @import "articles/article";
 
 @import "globals/responsive-utils";
+@import "globals/grid";
