@@ -50,5 +50,7 @@ Creating and empowering developers to share ideas about how code is written, deb
 Rather than having team members rush to complete their code so that it can simply be merged, implementing a solid code review process before pushing commits upstream ensures that developers can slow down and take their time to ensure code is review-ready prior to merging. This also lessens the likelihood of a piece of code getting put into production with vulnerabilities or otherwise buggy features such as memory leaks or buffer overflows.
 
 <h3 class="h3">Takeaways</h3>
-
+<div class="img.grid-block.img">
+  <img src="/images/posts/dont-rush-perfection.svg"/>
+</div>
 Overall, getting started with code review can be a daunting task. However, it’s not one that should be ignored. That’s where Runnable comes in. By integrating one’s application workflow into a more agile, streamlined process, software developers worldwide can ensure their code works as intended every time.
