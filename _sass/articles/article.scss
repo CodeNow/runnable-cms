@@ -163,10 +163,11 @@
 
   img {
     height: auto;
-    margin-bottom: $sm;
+    width: auto;
+    margin-bottom: $lg;
     margin-left: 50%;
-    margin-top: $lg;
-    max-width: calc(100vw - 60px);
+    margin-top: $sm;
+    max-width: calc(100vw - 3rem);
     transform: translateX(-50%);
   }
 
