@@ -28,8 +28,9 @@
 @import "globals/utility";
 
 // components
-@import "components/sidebar";
 @import "components/buttons";
+@import "components/sidebar";
+@import "components/related";
 
 // landing specific
 @import "landing/landing";
