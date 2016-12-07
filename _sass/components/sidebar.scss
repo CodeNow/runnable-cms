@@ -1,20 +1,50 @@
 .sidebar {
+  & ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+  }
+  & .article-body ul {
+    padding-left: 0px;
+    margin-bottom: $xs;
+}
   display: block;
-
   @media (max-width: $screen-sm) {
     display: none;
 
     width: 0px;
   }
 
-  & a {
-    text-decoration: none;
+  &-item-group {
+    margin-bottom: $sm;
+    & > {
+      display: block;
+      margin: 5px;
+    }
+  }
+  &-item-1 {
+    font-size: 18px;
+    margin-bottom: $xs;
+
+  }
+  &-item-2 {
+    margin-bottom: $xs;
+    margin-left: $sm;
+    font-size: 16px;
+
+  }
+  &-item-3 {
+    margin-bottom: $xs;
+    margin-left: $md;
+    font-size: 14px;
+
+  }
+
+  &-tag {
+    font-size: 14px;
   }
   &-tag-group {
     margin-bottom: $sm;
-  }
-  &-tag {
-    font-size: 14px;
   }
   &-header {
     padding-bottom: $sm;
