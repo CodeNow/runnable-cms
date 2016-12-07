@@ -1,6 +1,14 @@
-{% for tag in page.tags %}
-  <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
-{% endfor %}
-<a href="#"><h4 class="h4">View All Usecases</h4></a>
+<div class="sidebar-header">
+  <p class="p weight-strong">Tags</p>
+  <div class="sidebar-tag-group">
+    {% for tag in page.tags %}
+      <a href="/use-cases#{{ tag }}" class="sidebar-tag"><p>{{ tag }}</p></a>
+    {% endfor %}
+  </div>
+  <button class="btn btn-xs white">View All Usecases</button>
+</div>
 
-<a href="#"><h4 class="h4">Introduction</h4></a>
+<a href="#"><h4 class="sidebar-item">Introduction</h4></a>
+<a href="#"><h5 class="sidebar-item">Getting Started with Code Review</h4></a>
+<a href="#"><h5 class="sidebar-item">Code Reviews & Runnable</h4></a>
+<a href="#"><h5 class="sidebar-item">Platforms</h4></a>
