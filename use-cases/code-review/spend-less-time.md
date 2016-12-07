@@ -34,6 +34,7 @@ This is particularly useful for companies looking to implement agile development
 <div class="img.grid-block.img">
   <img src="/images/posts/working-together.svg"/>
 </div>
+
 One of the most beneficial parts of code review is the ability to hear from team members that may not always have the floor in a day-to-day situation. This means that things that may slip by a team that’s running on autopilot can often be caught by those that are reviewing code with fresh eyes. Another crucial benefit to reviewing code with Runnable is the fact that its ease of use enables better collaboration and teamwork.
 
 All too often, developers are met with the challenge of remote team members unable to participate in a task due to the inability to get a piece of the required stack running on their machine. Because Runnable is deployed directly from the user’s browser, there is nothing to install locally. This means that regardless of one’s hardware configuration or platform, they can contribute equally to the code review process.
