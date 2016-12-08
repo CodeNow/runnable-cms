@@ -17,20 +17,16 @@
 
   &-item-group {
     margin-bottom: $sm;
-    & > {
-      display: block;
-      margin: 5px;
-    }
   }
   &-item-1 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: $xs;
 
   }
   &-item-2 {
     margin-bottom: $xs;
     margin-left: $sm;
-    font-size: 16px;
+    font-size: 14px;
 
   }
   &-item-3 {
