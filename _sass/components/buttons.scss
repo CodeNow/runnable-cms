@@ -214,7 +214,7 @@
   color: $gray-dark;
 
   &.btn {
-    background: $white;
+    background: $black;
 
     &:not([disabled]):not(.disabled) {
 
@@ -232,6 +232,54 @@
         .icons-round {
           background: $purple-light;
         }
+      }
+    }
+  }
+}
+
+%twitter {
+  color: $gray-light;
+
+  &.btn {
+    background: #000;
+    border-color: $twitter-dark;
+    color: $white;
+
+    &:not([disabled]):not(.disabled) {
+
+      &:hover,
+      &.hover {
+        background: $twitter-light;
+      }
+
+      &:active,
+      &.active,
+      &.active:hover {
+        background: $twitter-dark;
+      }
+    }
+  }
+}
+
+%linkedin {
+  color: $gray-light;
+
+  &.btn {
+    background: $linkedin;
+    border-color: $linkedin-dark;
+    color: $white;
+
+    &:not([disabled]):not(.disabled) {
+
+      &:hover,
+      &.hover {
+        background: $linkedin-light;
+      }
+
+      &:active,
+      &.active,
+      &.active:hover {
+        background: $linkedin-dark;
       }
     }
   }

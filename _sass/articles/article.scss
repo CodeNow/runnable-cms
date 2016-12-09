@@ -143,11 +143,11 @@
   a:not(.well-anchor) {
     color: currentColor;
     cursor: pointer;
-    text-decoration: underline;
+
 
     &:hover,
     &:active {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
@@ -162,13 +162,15 @@
   }
 
   img {
+    width: 100%;
+    max-height: 300px;
     height: auto;
     width: auto;
     margin-bottom: $lg;
-    margin-left: 50%;
+    // margin-left: 25%;
     margin-top: $sm;
     max-width: calc(100vw - 3rem);
-    transform: translateX(-50%);
+    // transform: translateX(-25%);
   }
 
   // captions

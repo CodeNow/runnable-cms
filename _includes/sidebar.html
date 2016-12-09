@@ -1,23 +1,22 @@
-<div class="sidebar-header">
-  <div class="sidebar-tag-group">
+<div class="grid-block col">
+  <div class="tag-group">
     {% for tag in page.tags %}
-      <a href="/use-cases#{{ tag }}" class="sidebar-tag">{{ tag }}</a>
+      <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
     {% endfor %}
+    <button class="btn btn-xs purple">View All Usecases</button>
   </div>
-  <button class="btn btn-xs white">View All Usecases</button>
 </div>
-<div class="grid-block col sidebar-navigation">
-  <div class="sidebar-item-group">
-    <ul class="sidebar-item-1">
+<div class="grid-block col">
+  <div class="item-group">
+    <ul class="item-1">
       <li href="#"><a href="#">Introduction</a></li>
     </ul>
-    <ul class="sidebar-item-1">
+    <ul class="item-1">
       <li><a href="#">Getting Started with Code Review</a></li>
     </ul>
-    <ul class="sidebar-item-2">
+    <ul class="item-2">
       <li><a href="#">Code Reviews & Runnable</a></li>
       <li><a href="#">Platforms</a></li>
     </ul>
   </div>
-
 </div>
