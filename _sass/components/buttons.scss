@@ -214,7 +214,7 @@
   color: $gray-dark;
 
   &.btn {
-    background: $black;
+    background: $white;
 
     &:not([disabled]):not(.disabled) {
 
@@ -237,11 +237,11 @@
   }
 }
 
-%twitter {
+.twitter {
   color: $gray-light;
 
   &.btn {
-    background: #000;
+    background: $twitter;
     border-color: $twitter-dark;
     color: $white;
 
@@ -261,7 +261,7 @@
   }
 }
 
-%linkedin {
+.linkedin {
   color: $gray-light;
 
   &.btn {

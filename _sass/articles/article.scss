@@ -1,8 +1,11 @@
 .article {
   margin: 0 auto;
-  max-width: 720px;
   padding: 30px 15px;
 
+  .grid-block {
+    max-width: 680px;
+    margin: auto;
+  }
   &-share {
     border-top: 1px solid rgba(0,0,0,0.1);
     background: $white;
@@ -11,7 +14,7 @@
 
   &-related {
     background: $purple-dark;
-    & .h2 {
+    .h3.text-center {
       color: $white;
     }
   }

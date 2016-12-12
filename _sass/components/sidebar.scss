@@ -1,22 +1,24 @@
 .sidebar {
-  & ul li {
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0;
-  }
-  & .article-body ul {
-    padding-left: 0px;
+  // & .ul .li {
+  //
+  // }
+
+  & .article-body .ul {
+    padding-left: 0;
     margin-bottom: $xs;
 }
-  display: block;
+
   @media (max-width: $screen-sm) {
     display: none;
-
-    width: 0px;
+    width: 0;
   }
 
   & .item-group {
     margin-bottom: $sm;
+    padding-left: 0;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
   }
   & .item-1 {
     font-size: 16px;
