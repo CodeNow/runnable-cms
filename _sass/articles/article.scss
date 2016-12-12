@@ -1,3 +1,21 @@
+.article {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 30px 15px;
+  
+  &-share {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background: $white;
+    margin: 0 auto;
+  }
+
+  &-related {
+    background: $purple-dark;
+    & .h2 {
+      color: $white;
+    }
+  }
+}
 .article-body {
   position: relative;
   width: 100%;
