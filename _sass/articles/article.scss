@@ -5,8 +5,14 @@
   .grid-block {
     max-width: 680px;
     margin: auto;
+
+    @media (max-width: $screen-xs) {
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+    }
   }
   &-share {
+    max-width: 660px;
     border-top: 1px solid rgba(0,0,0,0.1);
     background: $white;
     margin: 0 auto;
