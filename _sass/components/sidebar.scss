@@ -1,12 +1,10 @@
 .sidebar {
-  // & .ul .li {
-  //
-  // }
 
-  &.article-body .ul {
-    padding-left: 0;
+
+  & .article-body .ul {
     margin-bottom: $xs;
-}
+    padding-left: 0;
+  }
 
   @media (max-width: $screen-sm) {
     display: none;
@@ -33,14 +31,14 @@
   & .list-2 {
     font-size: 14px;
   }
-
   & .tag {
     font-size: 14px;
     padding-right: 5px;
     white-space: nowrap;
   }
+
   & .tag-group {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba($black,.1);
     margin-bottom: $sm;
     padding-bottom: $sm;
   }
