@@ -3,7 +3,7 @@
   //
   // }
 
-  & .article-body .ul {
+  &.article-body .ul {
     padding-left: 0;
     margin-bottom: $xs;
 }
@@ -13,30 +13,27 @@
     width: 0;
   }
 
-  & .item-group {
+  & .list-group {
     margin-bottom: $sm;
     padding-left: 0;
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0;
+    .ul {
+      padding-left: $sm;
+    }
+    .li {
+      padding: 0;
+      margin-bottom: $xs;
+      list-style-type: none;
+    }
   }
-  & .item-1 {
+
+  & .list-1 {
     font-size: 16px;
-    margin-bottom: $xs;
-
+    padding-left: 0;
   }
-  & .item-2 {
-    margin-bottom: $xs;
-    margin-left: $sm;
+  & .list-2 {
     font-size: 14px;
-
   }
-  & .item-3 {
-    margin-bottom: $xs;
-    margin-left: $md;
-    font-size: 14px;
 
-  }
   & .tag {
     font-size: 14px;
     padding-right: 5px;

@@ -3,14 +3,19 @@
     {% for tag in page.tags %}
       <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
     {% endfor %}
-    <button class="btn btn-xs purple">View All Usecases</button>
+    <button class="btn btn-xs purple">View all use cases</button>
   </div>
 </div>
 <div class="grid-block col">
-  <ul class="item-group">
-    <li class="item-1"><a href="#">Introduction</a></li>
-    <li class="item-1"><a href="#">Getting Started with Code Review</a></li>
-    <li class="item-2"><a href="#">Code Reviews & Runnable</a></li>
-    <li class="item-2"><a href="#">Platforms</a></li>
-  </ul>
+  <div class="list-group">
+    <ul class="list-1">
+      <li class="li"><a href="#">Introduction</a></li>
+      <li class="li"><a href="#">Getting Started with Code Review</a></li>
+
+      <ul class="list-2">
+        <li class="li"><a href="#">Code Reviews &amp; Runnable</a></li>
+        <li class="li"><a href="#">Platforms</a></li>
+      </ul>
+    </ul>
+  </div>
 </div>
