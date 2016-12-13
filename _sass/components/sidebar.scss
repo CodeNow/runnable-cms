@@ -13,31 +13,30 @@
 
   & .list-group {
     margin-bottom: $sm;
-    padding-left: 0;
-
 
     .li {
-      padding: 0;
       margin-bottom: $xs;
       list-style-type: none;
 
       &:hover {
-
+        color: $purple;
+      }
+      &:active {
         color: $purple;
       }
     }
   }
 
   & .list-1 {
-    z-index: 2;
     font-size: 16px;
     padding-left: 0;
   }
+
   & .list-2 {
-    z-index: 1;
     font-size: 14px;
     border-left: 1px solid rgba($black,.1);
   }
+
   & .tag {
     display: inline-block;
     border: 1px solid rgba($black,.1);
@@ -48,9 +47,6 @@
     text-decoration: none;
     white-space: nowrap;
 
-    &:last-child {
-      border-bottom: 1px solid rgba($black,.1);
-    }
     &:hover {
       background: rgba($black,.12);
       border-color: rgba($black,.125);
