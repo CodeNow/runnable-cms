@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="grid-block col align-center hero">
-  <h1 class="h1 text-center weight-strong margin-top-sm">Test.</h1>
+  <h1 class="h1 text-center weight-strong margin-top-sm">Use cases: Code Review</h1>
 </div>
 
 <div class="grid-block grid-container col">
