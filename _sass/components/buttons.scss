@@ -1,5 +1,5 @@
 // button sizes
-%btn-lg{
+%btn-lg {
   border-radius: $input-border-radius-lg;
   font-size: 21px;
   height: $input-lg;
@@ -242,8 +242,7 @@
 
   &.btn {
     background: $twitter;
-    border: 1px solid;
-    border-color: $twitter-dark;
+    border: 1px solid $twitter-dark;
     color: $white;
 
     &:not([disabled]):not(.disabled) {
@@ -266,9 +265,8 @@
   color: $gray-light;
 
   &.btn {
-    border: 1px solid;
     background: $linkedin;
-    border-color: $linkedin-dark;
+    border: 1px solid $linkedin-dark;
     color: $white;
 
     &:not([disabled]):not(.disabled) {

@@ -1,12 +1,9 @@
 .sidebar {
-  // & .ul .li {
-  //
-  // }
 
   & .article-body .ul {
-    padding-left: 0;
     margin-bottom: $xs;
-}
+    padding-left: 0;
+  }
 
   @media (max-width: $screen-sm) {
     display: none;
@@ -14,36 +11,38 @@
   }
 
   & .item-group {
+    list-style-type: none;
+    margin: 0;
     margin-bottom: $sm;
     padding-left: 0;
     text-decoration: none;
-    list-style-type: none;
-    margin: 0;
   }
+
   & .item-1 {
     font-size: 16px;
     margin-bottom: $xs;
-
   }
+
   & .item-2 {
+    font-size: 14px;
     margin-bottom: $xs;
     margin-left: $sm;
-    font-size: 14px;
-
   }
+
   & .item-3 {
+    font-size: 14px;
     margin-bottom: $xs;
     margin-left: $md;
-    font-size: 14px;
-
   }
+
   & .tag {
     font-size: 14px;
     padding-right: 5px;
     white-space: nowrap;
   }
+
   & .tag-group {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba($black,.1);
     margin-bottom: $sm;
     padding-bottom: $sm;
   }
