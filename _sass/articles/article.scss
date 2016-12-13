@@ -139,7 +139,7 @@
   // lists
   ol,
   ul {
-    padding-left: 30px;
+    padding-left: $sm;
   }
 
   ol {
@@ -169,9 +169,10 @@
   }
 
   // link
-  a:not(.well-anchor) {
+  a:not(.well-anchor, .sidebar) {
     color: currentColor;
     cursor: pointer;
+    text-decoration: underline;
 
     &:hover,
     &:active {
