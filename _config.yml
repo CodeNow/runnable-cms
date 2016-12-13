@@ -6,10 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Runnable CMS Articles
+title: Runnable Use-cases
 email: support@runnable.com
+description: Articles that explain how Runnable can be used to solve problems for development teams. 
 url: https://runnable.com # the base hostname & protocol for your site
-baseurl: /
+baseurl: /use-cases
+
+seo:
+  type: TechArticle
 
 # Build settings
 markdown: kramdown
@@ -17,7 +21,6 @@ markdown: kramdown
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-timeago
 
 permalink: /:categories/:title
 
