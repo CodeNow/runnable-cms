@@ -28,6 +28,8 @@
 
 // components
 @import "components/buttons";
+@import "components/card";
+@import "components/sidebar";
 
 // landing specific
 @import "landing/landing";
@@ -37,5 +39,7 @@
 @import "landing/coming-soon";
 
 @import "articles/article";
+@import "articles/article-related";
+@import "articles/article-share";
 
 @import "globals/responsive-utils";

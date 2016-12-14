@@ -1,3 +1,8 @@
+.article {
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
 .article-body {
   position: relative;
   width: 100%;
@@ -110,7 +115,7 @@
   // lists
   ol,
   ul {
-    padding-left: 30px;
+    padding-left: $sm;
   }
 
   ol {
@@ -140,14 +145,14 @@
   }
 
   // link
-  a:not(.well-anchor) {
+  a:not(.well-anchor, .sidebar) {
     color: currentColor;
     cursor: pointer;
     text-decoration: underline;
 
     &:hover,
     &:active {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
@@ -163,11 +168,11 @@
 
   img {
     height: auto;
-    margin-bottom: $sm;
-    margin-left: 50%;
-    margin-top: $lg;
-    max-width: calc(100vw - 60px);
-    transform: translateX(-50%);
+    margin-bottom: $lg;
+    margin-top: $sm;
+    max-height: 300px;
+    max-width: calc(100vw - 3rem);
+    width: auto;
   }
 
   // captions

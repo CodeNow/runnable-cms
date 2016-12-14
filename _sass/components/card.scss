@@ -1,0 +1,18 @@
+.card {
+  background: $white;
+  border: 1px solid $gray-lighter;
+  border-radius: $input-border-radius-lg;
+  box-shadow: 0 1px 3px rgba($black,.1);
+  max-width: 1020px;
+  padding: 0 $sm;
+  position: relative;
+  z-index: 1;
+
+  .h3 {
+    font-size: 18px;
+  }
+
+  .p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,16 @@
+.article-related {
+  background: $purple-dark;
+
+  .h3.text-center {
+    color: $white;
+  }
+
+  .grid-block {
+    margin: auto;
+    max-width: 680px;
+
+    @media (max-width: $screen-xs) {
+      flex-flow: column nowrap;
+    }
+  }
+}

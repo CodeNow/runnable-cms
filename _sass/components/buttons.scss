@@ -1,5 +1,5 @@
 // button sizes
-%btn-lg{
+%btn-lg {
   border-radius: $input-border-radius-lg;
   font-size: 21px;
   height: $input-lg;
@@ -232,6 +232,54 @@
         .icons-round {
           background: $purple-light;
         }
+      }
+    }
+  }
+}
+
+.twitter {
+  color: $gray-light;
+
+  &.btn {
+    background: $twitter;
+    border: 1px solid $twitter-dark;
+    color: $white;
+
+    &:not([disabled]):not(.disabled) {
+
+      &:hover,
+      &.hover {
+        background: $twitter-light;
+      }
+
+      &:active,
+      &.active,
+      &.active:hover {
+        background: $twitter-dark;
+      }
+    }
+  }
+}
+
+.linkedin {
+  color: $gray-light;
+
+  &.btn {
+    background: $linkedin;
+    border: 1px solid $linkedin-dark;
+    color: $white;
+
+    &:not([disabled]):not(.disabled) {
+
+      &:hover,
+      &.hover {
+        background: $linkedin-light;
+      }
+
+      &:active,
+      &.active,
+      &.active:hover {
+        background: $linkedin-dark;
       }
     }
   }
