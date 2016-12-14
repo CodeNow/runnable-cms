@@ -8,7 +8,9 @@ excerpt: Finish your code reviews faster.
 description: Complete your code reviews faster and with higher confidence by previewing your changes with an up-to-date environment.
 ---
 
-One of the biggest difficulties with reviewing code is the time it takes to fully understand how your teammates changes affect the entire system. Having the ability to test the code you're reviewing saves you time and increases confidence that the code is working as intended. Runnable enables you to test changes earlier in development while your code is being reviewed. By integrating into the Pull Request page, Runnable gives your team a URL of the environment that's running your application when they're ready to review your code. Environments are automatically created for each code branch, and stay up-to-date with your latest changes. Lastly, environments are full-stack so they contain all the services, databases, and data needed to thorougly test your changes end-to-end.
+One of the biggest difficulties with reviewing code is the time it takes to fully understand how your teammates changes affect the entire system. Having the ability to test the code you're reviewing saves you time and increases confidence that the code is working as intended. 
+
+Runnable enables you to test changes earlier in development while your code is being reviewed. By integrating into the Pull Request page, Runnable gives your team a URL of the environment that's running your application when they're ready to review your code. Environments are automatically created for each code branch, and stay up-to-date with your latest changes. Lastly, environments are full-stack so they contain all the services, databases, and data needed to thorougly test your changes end-to-end.
 
 ## Setting up Runnabot
 
@@ -26,7 +28,7 @@ That's it! Now our purple cyborg bear of simplicity will keep a laser-eyed watch
 
 As you develop, Runnable rebuilds and deploys a new instance of your environment with your latest code, and preserves the environment URL. Having a unique environment URL for every code branch makes it very simple for your entire team to stay up-to-date with a new feature or update. Before you merge your branch in master/develop, you'll get useful feedback earlier from your peers, product team, and customers. This is invaluable in helping speed up code reviews, and with speeding up development overall.
 
-## Automation and Unlimited Environments
+## Unlimited, Self-Managed Environments
 
 Several teams run into a bottleneck with the number of environments they have to integrate and stage their changes. This slows down cross-component testing and reviews of bigger features.
 
