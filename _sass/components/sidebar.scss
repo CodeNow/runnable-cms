@@ -1,13 +1,13 @@
 .sidebar {
 
-  .article-body .ul {
-    margin-bottom: $xs;
-    padding-left: 0;
-  }
-
   @media (max-width: $screen-sm) {
     display: none;
     width: 0;
+  }
+
+  .article-body .ul {
+    margin-bottom: $xs;
+    padding-left: 0;
   }
 
   .list-group {
@@ -37,7 +37,6 @@
       padding-left: $sm;
     }
   }
-
 
   .tag {
     border: 1px solid rgba($black,.1);
