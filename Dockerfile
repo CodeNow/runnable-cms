@@ -18,11 +18,11 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
 RUN gem install jekyll bundler
-COPY ./runnable.cms/Gemfile /runnable.cms/Gemfile
-WORKDIR /runnable.cms/
+COPY ./runnable-cms/Gemfile /runnable-cms/Gemfile
+WORKDIR /runnable-cms/
 RUN bundle update && \
     bundle install
-COPY ./runnable.cms/ /runnable.cms
+COPY ./runnable-cms/ /runnable-cms
 CMD bundle exec jekyll serve --host=0.0.0.0 --port=80
 RUN bundle && bundle exec jekyll build
 EXPOSE 80
