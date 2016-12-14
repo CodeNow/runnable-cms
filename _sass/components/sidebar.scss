@@ -1,7 +1,6 @@
 .sidebar {
 
-
-  & .article-body .ul {
+  .article-body .ul {
     margin-bottom: $xs;
     padding-left: 0;
   }
@@ -11,37 +10,40 @@
     width: 0;
   }
 
-  & .list-group {
+  .list-group {
     margin-bottom: $sm;
 
     .li {
-      margin-bottom: $xs;
       list-style-type: none;
+      margin-bottom: $xs;
 
       &:hover {
         color: $purple;
       }
+
       &:active {
         color: $purple;
       }
     }
   }
 
-  & .list-1 {
+  .list {
     font-size: 16px;
     padding-left: 0;
+
+    .list {
+      border-left: 1px solid rgba($black,.1);
+      font-size: 14px;
+      padding-left: $sm;
+    }
   }
 
-  & .list-2 {
-    font-size: 14px;
-    border-left: 1px solid rgba($black,.1);
-  }
 
-  & .tag {
-    display: inline-block;
+  .tag {
     border: 1px solid rgba($black,.1);
     border-radius: $input-border-radius;
     box-shadow: 0 1px solid rgba($black,.5);
+    display: inline-block;
     font-size: 12px;
     padding: 2px 6px;
     text-decoration: none;
@@ -53,7 +55,7 @@
     }
   }
 
-  & .tag-group {
+  .tag-group {
     padding-bottom: $md;
   }
 }
