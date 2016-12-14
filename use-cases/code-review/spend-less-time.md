@@ -1,5 +1,5 @@
 ---
-title: Spend less time working on code reviews
+title: Spend less time working on code reviews.
 layout: post
 permalink: /use-cases/spend-less-time-working-on-code-reviews/
 tags:
