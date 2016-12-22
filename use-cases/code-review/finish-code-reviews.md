@@ -19,8 +19,11 @@ Once you've gotten your application set up on Runnable, you'll have the option t
 [Setting up Runnabot](http://docs.runnable.com/integrations/prbot.html) is simple:
 
 1. On Runnable, click on your GitHub org avatar (top-left) and select "PR Bot".
+<img class="grid-block img" src="/images/posts/prbot1.png">
 2. Click on "Invite Runnabot" to open a new browser tab navigating to GitHub.
+<img class="grid-block img" src="/images/posts/prbot2.png">
 3. On the GitHub tab, verify that "member" is selected and click on "Send Invitation".
+<img class="grid-block img" src="/images/posts/prbot3.png">
 
 That's it! Now our purple cyborg bear of simplicity will keep a laser-eyed watch on your Pull Requests and update them with useful, time-saving metadata.
 
