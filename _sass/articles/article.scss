@@ -173,6 +173,18 @@
     max-height: 300px;
     max-width: calc(100vw - 3rem);
     width: auto;
+
+    &.img-sm {
+      max-width: 150px;
+    }
+
+    &.img-md {
+      max-width: 300px;
+    }
+
+    &.img-lg {
+      max-width: 450px;
+    }
   }
 
   // captions
