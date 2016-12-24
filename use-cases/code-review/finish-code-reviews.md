@@ -1,5 +1,5 @@
 ---
-title: Finish your code reviews in 5 minutes
+title: Finish your code reviews in 5 minutes.
 layout: post
 permalink: /use-cases/finish-your-code-reviews-in-5-minutes/
 tags:
