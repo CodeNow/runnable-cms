@@ -4,8 +4,6 @@ layout: post
 permalink: /use-cases/spend-less-time-working-on-code-reviews/
 tags:
 - 'code review'
-- 'code'
-- 'agile development'
 excerpt: Use Runnable to speed up code review
 description: Code reviews are essential, but they're one of the least favorable tasks for developers. Reading and understanding hundreds of lines of someone else's code is difficult. Learn how Runnable simplifies this process by enabling you to try out the changes beforehand.
 ---

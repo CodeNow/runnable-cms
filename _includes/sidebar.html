@@ -1,11 +1,10 @@
-<div class="grid-block col">
-  <div class="tag-group">
-    {% for tag in page.tags %}
-      <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
-    {% endfor %}
-    <a href="/use-cases" class="btn btn-xs purple">View all use cases</a>
-  </div>
+<div class="tag-group">
+  {% for tag in page.tags %}
+    <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
+  {% endfor %}
+  <a href="/use-cases" class="btn btn-xs purple">View all use cases</a>
 </div>
+
 <!--
 <div class="grid-block col">
   <div class="list-group">
