@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="grid-block col align-center hero">
-  <h1 class="h1 text-center weight-strong margin-top-sm">{{ page.title }}</h1>
+  <div class="h1 text-center weight-strong margin-top-sm">{{ page.title }}</div>
 </div>
 
 <div class="grid-block grid-container">
-  <nav class="grid-block col article sidebar">
+  <nav class="grid-block col sidebar">
     {% include sidebar.html %}
   </nav>
 
@@ -18,3 +18,31 @@ layout: default
     </article>
   </div>
 </div>
+
+<script src="/js/contents.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var contents = gajus.Contents();
+  var toc = document.querySelectorAll('.js-toc')[0];
+  var article = document.querySelectorAll('.article-body')[0];
+  var tocLinks = toc.getElementsByTagName('a');
+  var articleLinks = article.getElementsByTagName('a');
+  var linkHref;
+
+  toc.appendChild(contents.list());
+
+  for (i = 0; i < tocLinks.length; i++) {
+    linkHref = tocLinks[i].href;
+    if (linkHref.includes('#')) {
+      tocLinks[i].href = '{{ page.url }}' + tocLinks[i].hash;
+    }
+  }
+
+  for (i = 0; i < articleLinks.length; i++) {
+    linkHref = articleLinks[i].href;
+    if (linkHref.includes('#')) {
+      articleLinks[i].href = '{{ page.url }}' + articleLinks[i].hash;
+    }
+  }
+});
+</script>

@@ -1,27 +1,8 @@
-<div class="tag-group">
+<div class="grid-block shrink col tag-group align-start tag-group">
   {% for tag in page.tags %}
-    <a href="/use-cases#{{ tag }}" class="tag">{{ tag }}</a>
+    <a href="/use-cases#{{ tag }}" class="btn btn-xs white">{{ tag }}</a>
   {% endfor %}
   <a href="/use-cases" class="btn btn-xs purple">View all use cases</a>
 </div>
 
-<!--
-<div class="grid-block col">
-  <div class="list-group">
-    <ul class="list">
-      <li class="li"><a href="#">Introduction</a></li>
-      <li class="li"><a href="#getting-started-with-code-review">Getting Started with Code Review</a></li>
-
-      <ul class="list">
-        <li class="li"><a href="#code-reviews-and-runnable">Code Reviews & Runnable</a></li>
-        <li class="li"><a href="#platforms">Platforms</a></li>
-        <li class="li"><a href="#agile-development">Agile Development</a></li>
-        <li class="li"><a href="#knowledge-transfer">Knowledge Transfer</a></li>
-        <li class="li"><a href="#work-smarter-not-harder">Work Smarter, Not Harder</a></li>
-        <li class="li"><a href="#one-click-containers">One-Click Containers</a></li>
-        <li class="li"><a href="#takeaways">Takeaways</a></li>
-      </ul>
-    </ul>
-  </div>
-</div>
- -->
+<div class="grid-block col list-group js-toc"></div>
