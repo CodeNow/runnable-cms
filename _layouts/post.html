@@ -7,13 +7,14 @@ layout: default
 </div>
 
 <div class="grid-block grid-container">
-  <div class="sidebar grid-block article">
+  <nav class="grid-block col article sidebar">
     {% include sidebar.html %}
-  </div>
+  </nav>
 
   <div class="grid-block col">
     <article class="article article-body">
       {{ content }}
+      {% include share.html %}
     </article>
   </div>
 </div>

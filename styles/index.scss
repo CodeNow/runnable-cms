@@ -29,6 +29,7 @@
 // components
 @import "components/buttons";
 @import "components/card";
+@import "components/share";
 @import "components/sidebar";
 
 // landing specific
@@ -40,6 +41,5 @@
 
 @import "articles/article";
 @import "articles/article-related";
-@import "articles/article-share";
 
 @import "globals/responsive-utils";

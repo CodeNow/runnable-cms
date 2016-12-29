@@ -1,4 +1,5 @@
 .sidebar {
+  flex: 0 0 240px;
 
   @media (max-width: $screen-sm) {
     display: none;

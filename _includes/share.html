@@ -1,17 +1,4 @@
-<article class="article article-share">
-  <h3 class="h3 text-center">Share this post</h3>
-  <div class="grid-block justify-center">
-    <div class="grid-block shrink">
-      <div class="grid-block margin-bottom-sm padding-sm col">
-        <button class="btn btn-sm twitter">
-          Share to Twitter
-        </button>
-      </div>
-      <div class="grid-block margin-bottom-sm padding-sm col">
-        <button class="btn btn-sm linkedin">
-          Share to Linkedin
-        </button>
-      </div>
-    </div>
-  </div>
-</article>
+<section class="grid-block share">
+  <a class="btn btn-sm twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url=https://runnable.com{{ page.url }}" target="_blank">Share to Twitter</a>
+  <a class="btn btn-sm linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://runnable.com{{ page.url }}" target="_blank">Share to Linkedin</a>
+</section>
