@@ -1,8 +1,13 @@
 <div class="grid-block shrink col tag-group align-start tag-group">
+  <a href="/use-cases" class="btn btn-xs gray btn-arrow-back">
+    <svg class="icons">
+      <use xlink:href = "#icons-chevron-down">
+    </svg>
+    View All Use Cases
+  </a>
   {% for tag in page.tags %}
-    <a href="/use-cases#{{ tag }}" class="btn btn-xs white">{{ tag }}</a>
+    <a href="/use-cases#{{ tag }}" class="btn btn-xs gray">{{ tag }}</a>
   {% endfor %}
-  <a href="/use-cases" class="btn btn-xs purple">View all use cases</a>
 </div>
 
 <div class="grid-block col list-group js-toc"></div>

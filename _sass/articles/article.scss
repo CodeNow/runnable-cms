@@ -41,6 +41,10 @@
     @include media(sm) {
       font-size: 36px;
     }
+
+    &:first-child {
+      padding-top: 0;
+    }
   }
 
   h2 {

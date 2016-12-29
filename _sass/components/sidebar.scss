@@ -8,8 +8,19 @@
     width: 0;
   }
 
-  .tag-group .btn + .btn {
-    margin-top: $xxs;
+  .tag-group {
+
+    .btn + .btn {
+      margin-top: $xxs;
+    }
+
+    .icons {
+      float: left;
+      height: 100%;
+      margin-right: 6px;
+      transform: rotate3d(0,0,1,90deg);
+      width: 9px;
+    }
   }
 
   .list-group {
@@ -36,15 +47,16 @@
     list-style-type: none;
 
     a {
-      display: block;
+      display: inline-block;
       margin-bottom: $sm;
+      max-width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
 
       &:hover,
       &:active {
-        color: $purple;
+        color: $purple-light;
       }
     }
   }
