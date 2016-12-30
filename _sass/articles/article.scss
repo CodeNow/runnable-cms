@@ -33,6 +33,10 @@
     font-weight: $weight-bold;
     line-height: 1.2;
     padding: $sm 0;
+
+    > a:not(.well-anchor, .btn) {
+      text-decoration: none;
+    }
   }
 
   h1 {
