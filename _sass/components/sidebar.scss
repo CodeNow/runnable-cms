@@ -1,61 +1,63 @@
 .sidebar {
-  flex: 0 0 240px;
+  flex: 0 0 300px;
+  padding: 75px 30px;
+  padding-right: 0;
 
   @media (max-width: $screen-sm) {
     display: none;
     width: 0;
   }
 
-  .article-body .ul {
-    margin-bottom: $xs;
-    padding-left: 0;
-  }
+  .tag-group {
 
-  .list-group {
-    margin-bottom: $sm;
+    .btn + .btn {
+      margin-top: $xxs;
+    }
 
-    .li {
-      list-style-type: none;
-      margin-bottom: $xs;
-
-      &:hover {
-        color: $purple;
-      }
-
-      &:active {
-        color: $purple;
-      }
+    .icons {
+      float: left;
+      height: 100%;
+      margin-right: 6px;
+      transform: rotate3d(0,0,1,90deg);
+      width: 9px;
     }
   }
 
-  .list {
-    font-size: 16px;
-    padding-left: 0;
+  .list-group {
+    padding-top: $md;
+    // scss-lint:disable VendorPrefix
+    position: -webkit-sticky;
+    // scss-lint:enable VendorPrefix
+    position: sticky;
+    top: $md;
+  }
 
-    .list {
+  // we‘re making an exception here for tag selectors
+  // because content.js doesn't add classes by default
+  ol {
+    font-size: 13px;
+
+    ol {
       border-left: 1px solid rgba($black,.1);
-      font-size: 14px;
       padding-left: $sm;
     }
   }
 
-  .tag {
-    border: 1px solid rgba($black,.1);
-    border-radius: $input-border-radius;
-    box-shadow: 0 1px solid rgba($black,.5);
-    display: inline-block;
-    font-size: 12px;
-    padding: 2px 6px;
-    text-decoration: none;
-    white-space: nowrap;
+  li {
+    list-style-type: none;
 
-    &:hover {
-      background: rgba($black,.12);
-      border-color: rgba($black,.125);
+    a {
+      display: inline-block;
+      margin-bottom: $sm;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      &:hover,
+      &:active {
+        color: $purple-light;
+      }
     }
-  }
-
-  .tag-group {
-    padding-bottom: $md;
   }
 }

@@ -13,7 +13,7 @@ layout: default
       <div id="{{ post.tags }}" class="padding-xl padding-left-md padding-right-md">
         <a class="h3 weight-strong" href="{{ post.url }}">{{ post.title }}</a>
         <p class="p margin-top-sm">{{ post.excerpt }}</p>
-        Tag: <a class="link">{{ post.tags }}</a>
+        <a class="btn btn-xs gray">{{ post.tags }}</a>
       </div>
     {% endif %}
   {% endfor %}
