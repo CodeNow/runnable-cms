@@ -1,5 +1,5 @@
 ---
-title: Peer review changes in your application stack quickly
+title: Peer review changes in your application stack quickly.
 layout: post
 permalink: /use-cases/peer-review-changes-in-your-application-stack-quickly/
 tags:
