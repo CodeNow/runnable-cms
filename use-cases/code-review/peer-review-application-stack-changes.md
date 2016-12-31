@@ -16,8 +16,8 @@ If your change requires an additional service, such as a new database, microserv
 
 1. On the Runnable UI, click on the Add a Service button.
 2. There are two ways to add your service, depending on its source:
-    a. If your team engineered the new service (and created a repository for it), locate it on the Repositories tab, and click Select.
-    b. If the new service is off-the-shelf, like a database or message broker, click on the Non-Repository tab, locate it amongst the list, and click Select.
+    - If your team engineered the new service (and created a repository for it), locate it on the Repositories tab, and click Select.
+    - If the new service is off-the-shelf, like a database or message broker, click on the Non-Repository tab, locate it amongst the list, and click Select.
 3. Follow the instructions on the setup guide to add your new service.
 
     *Note:* If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.
