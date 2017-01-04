@@ -16,3 +16,7 @@
 4. Run `bundle exec jekyll build`
 5. Run `bundle exec jekyll serve`
 6. Open `localhost:4000/` in your browser.
+
+## Deploying
+
+Any changes to master will automatically deploy to GitHub Pages (AKA Prod @ runnable.com/use-cases/)
