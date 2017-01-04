@@ -14,10 +14,10 @@ Changes to your application stack generally require a separate, isolated staging
 
 If your change requires an additional service, such as a new database, microservice, and/or message broker, you can add it to your environment easily.
 
-1. On the Runnable UI, click on the Add a Service button.
+1. On the Runnable UI, click on the “Add a Service” button.
 2. There are two ways to add your service, depending on its source:
-    - If your team engineered the new service (and created a repository for it), locate it on the Repositories tab, and click Select.
-    - If the new service is off-the-shelf, like a database or message broker, click on the Non-Repository tab, locate it amongst the list, and click Select.
+    - If your team engineered the new service (and created a repository for it), locate it on the “Repositories” tab, and click “Select”.
+    - If the new service is off-the-shelf, like a database or message broker, click on the “Non-Repository” tab, locate it amongst the list, and click “Select”.
 3. Follow the instructions on the setup guide to add your new service.
 
     *Note:* If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.
@@ -29,7 +29,7 @@ Shortly after creating a new branch to kick-off your change, Runnable will autom
 1. On the Runnable UI, hover the mouse pointer over your branch, and click on the settings icon.
 2. Select “Isolate Branch…”. A dialog will show with a list of other services that comprise your application stack.
 3. Select all the services you need to isolate your environment and change which code branch to source the environment from as needed.
-4. Finish by selecting “Isolate Branch”. Runnable will spin up copies of all the other services, and network them together based on your configuration. 
+4. Finish by selecting “Isolate Branch”. Runnable will spin up copies of all the other services, and network them together based on your configuration.
 
 Within a few moments, your branch will be running on a full-stack environment that’s fully isolated from the rest of your team’s Runnable environments.
 
@@ -46,4 +46,4 @@ If the changes involve modifying configuration settings on Runnable (such as lan
 
 After saving your changes, the service will rebuild and restart. The change will only apply to the service in isolation, so your teammates can continue to work with stable environments while you experiment and test.
 
-You’re now left with an environment that’s full-stack, isolated, and capable for running all your tests. Having a fully-featured environment easily at your disposal will enable you to complete tasks that involve major changes to your stack that much quicker. That leaves your team with more time to make further improvements to your application, and deploy them with less bugs.
+You’re now left with an environment that’s full-stack, isolated, and capable for running all your tests. Having a fully-featured environment easily at your disposal will enable you to complete tasks that involve major changes to your stack that much quicker. That leaves your team with more time to make further improvements to your application, and deploy them with fewer bugs.
