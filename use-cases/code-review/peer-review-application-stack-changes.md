@@ -11,6 +11,7 @@ description: Runnable's full-stack environments are the perfect place to test an
 Changes to your application stack generally require a separate, isolated staging server for testing and debugging to avoid slowing down development for the rest of the team. Projects like migrating a database, adding a queue-based architecture, or upgrading a key dependency are harder to test and peer review without a separate, full-stack environment at your disposal. See how Runnable helps your team peer review these changes quicker with isolated environments.
 
 ## Add a service
+<img class="grid-block img img-lg" src="images/posts/add-a-service.svg">
 
 If your change requires an additional service, such as a new database, microservice, and/or message broker, you can add it to your environment easily.
 
@@ -23,6 +24,7 @@ If your change requires an additional service, such as a new database, microserv
     *Note:* If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.
 
 ## Isolate your environment
+<img class="grid-block img img-lg" src="images/posts/isolate-your-environment.svg">
 
 Shortly after creating a new branch to kick-off your change, Runnable will automatically create a full-stack environment. If you don’t have auto-isolation enabled, you’ll need to perform one additional step to create a fully isolated environment:
 
@@ -34,6 +36,7 @@ Shortly after creating a new branch to kick-off your change, Runnable will autom
 Within a few moments, your branch will be running on a full-stack environment that’s fully isolated from the rest of your team’s Runnable environments.
 
 ## Update an existing service
+<img class="grid-block img img-lg" src="images/posts/update-an-existing-service.svg">
 
 Runnable environments are well-suited for testing language and dependency changes of all types. If your dependency versions are controlled via a configuration file, those changes will be reflected on your environment as soon as you update and push them to your branch.
 
