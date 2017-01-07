@@ -207,7 +207,6 @@
     margin-bottom: $lg;
     margin-top: $sm;
     max-height: 300px;
-    width: 100%;
     max-width: calc(100vw - 3rem);
     width: auto;
 
@@ -220,6 +219,7 @@
     }
 
     &.img-lg {
+      width: 100%;
       max-width: 520px;
     }
   }
