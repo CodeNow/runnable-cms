@@ -25,7 +25,7 @@ If your change requires an additional service, such as a new database, microserv
 <img class="grid-block img img-lg" src="images/posts/service-name.png">
 3. Follow the instructions on the setup guide to add your new service.
 
-    *Note:* If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.
+  *Note:* If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.
 
 ## Isolate your environment
 <img class="grid-block img img-lg" src="images/posts/isolate-your-environment.svg">
@@ -50,10 +50,15 @@ Runnable environments are well-suited for testing language and dependency change
 
 If the changes involve modifying configuration settings on Runnable (such as language versions, for example), you can update and test those changes without affecting your team’s other environments:
 
+
 1. Select your working branch, if necessary. The other services in the isolation set should appear below it.
+<img class="grid-block img img-lg" src="images/posts/choose-a-branch.png">
 2. Hover the mouse pointer over the service to update and select the Settings icon.
+<img class="grid-block img img-lg" src="images/posts/configure-service.png">
 3. Select “Configure”. A dialog resembling the setup guide should appear.
+<img class="grid-block img img-lg" src="images/posts/service-dialogue-1.png">
 4. Adjust your settings as needed, and click “Save & Build". This may differ depending on how this service was initially configured.
+<img class="grid-block img img-lg" src="images/posts/service-dialogue-2.png">
 
 After saving your changes, the service will rebuild and restart. The change will only apply to the service in isolation, so your teammates can continue to work with stable environments while you experiment and test.
 
