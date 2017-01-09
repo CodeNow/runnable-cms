@@ -38,7 +38,6 @@ As you develop, Runnable rebuilds and deploys a new instance of your environment
 Several teams run into a bottleneck with the number of environments they have to integrate and stage their changes. This slows down cross-component testing and reviews of bigger features.
 
 
-\
 Runnable automates the process of creating, removing, and updating test environments. Furthemore, Runnable's pricing plans also cover the cost and management of infrastructure for an unlimited number of full-stack environments at a [low, fixed cost](https://runnable.com/pricing/). You're guaranteed to always have an isolated, updated environment to review code, without any of the burden of finding and managing environmets.
 
 ## Takeaways
