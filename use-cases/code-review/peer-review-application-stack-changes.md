@@ -26,7 +26,9 @@ If your change requires an additional service, such as a new database, microserv
 <img class="grid-block img img-lg" src="images/posts/service-name.png">
 
 3. Follow the instructions on the setup guide to add your new service.
-<blockquote>*Note:* If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.</blockquote>
+<blockquote>
+  <span class="weight-strong">Note:</span> If you need to add a service that is not on the list, get in touch with us. Runnable supports virtually any application that runs on Linux.
+</blockquote>
 
 ## Isolate your environment
 <img class="grid-block img img-lg" src="images/posts/isolate-your-environment.svg">
