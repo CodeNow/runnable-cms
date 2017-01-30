@@ -4,8 +4,8 @@ layout: post
 permalink: /use-cases/peer-review-data-migrations-and-database-schema-changes/
 tags:
 - 'code review'
-excerpt: Test and peer review your major application stack changes with a full-stack environment.
-description: Runnable's full-stack environments are the perfect place to test and review any change to your technology stack. Here's how to do it without slowing down your team's development.
+excerpt: Review and test data-related changes without spending time setting up an isolated database on your server or local machine.
+description: Save time reviewing data-related changes with Runnable. Isolated environments are provisioned in seconds, and include fully-seeded databases so you can test and review without having to set up your application locally or on a server.
 ---
 
 When working with data migrations and schema changes, developers often run into problems. These take up valuable time when testing and reviewing code changes. If working on data migrations, these often require the use of a data set. However, data sets are not always a part of a project’s codebase. Data sets can be multiple gigabytes in size, making it painful and time consuming to transfer them to your local or dev server for testing.
