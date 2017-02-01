@@ -1,7 +1,5 @@
 # The CMS for Runnable.com
 
-## Build and Run
-
 ### Requirements
 
 - Ruby (v2.2 or above)
