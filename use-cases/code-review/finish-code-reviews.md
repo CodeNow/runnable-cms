@@ -6,6 +6,7 @@ tags:
 - 'code review'
 excerpt: Finish your code reviews faster.
 description: Complete your code reviews faster and with higher confidence by previewing your changes with an up-to-date environment.
+hero: communication.svg
 ---
 
 One of the biggest difficulties with reviewing code is the time it takes to fully understand how your teammates changes affect the entire system. Having the ability to test the code you're reviewing saves you time and increases confidence that the code is working as intended.
