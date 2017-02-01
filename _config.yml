@@ -31,7 +31,7 @@ permalink: /:categories/:title
 defaults:
   -
     scope:
-      path: "use-cases"
+      path: ""
     values:
       seo:
         baseurl: /use-cases
