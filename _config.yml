@@ -10,6 +10,11 @@ title: Runnable Use Cases
 email: support@runnable.com
 description: Articles that explain how Runnable can be used to solve problems for development teams.
 url: https://runnable.com # the base hostname & protocol for your site
+baseurl: 
+twitter:
+  username: GetRunnable
+facebook:
+  publisher: Runnable
 
 seo:
   type: TechArticle
@@ -22,6 +27,15 @@ gems:
   - jekyll-sitemap
 
 permalink: /:categories/:title
+
+defaults:
+  - 
+    scope: 
+      path: "use-cases"
+    values:
+      seo:
+        type: TechArticle
+        url: https://runnable.com/use-cases
 
 sass:
   sass_dir: _sass/
