@@ -34,8 +34,9 @@ defaults:
       path: ""
     values:
       seo:
-        baseurl: /use-cases
+        baseurl: use-cases
         type: TechArticle
+        url: https://runnable.com/
 
 sass:
   sass_dir: _sass/
