@@ -33,6 +33,7 @@ defaults:
     scope:
       path: "use-cases"
     values:
+      url: https://runnable.com
       baseurl: use-cases
       seo:
         type: TechArticle
