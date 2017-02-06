@@ -10,7 +10,7 @@ title: Runnable Use Cases
 email: support@runnable.com
 description: Articles that explain how Runnable can be used to solve problems for development teams.
 url: https://runnable.com # the base hostname & protocol for your site
-baseurl: /use-cases/
+baseurl: use-cases
 twitter:
   username: GetRunnable
 facebook:
