@@ -1,6 +1,7 @@
 ---
 title: Spend less time working on code reviews.
 layout: post
+hero: bugs.svg
 permalink: /use-cases/spend-less-time-working-on-code-reviews/
 tags:
 - 'code review'
