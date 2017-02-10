@@ -1,5 +1,6 @@
 .article {
   margin: 0 auto;
+  max-width: 500px;
   padding: 30px 15px;
 }
 
@@ -203,6 +204,7 @@
   }
 
   img {
+    display: block;
     height: auto;
     margin-bottom: $lg;
     margin-top: $sm;

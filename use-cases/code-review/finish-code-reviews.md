@@ -1,6 +1,7 @@
 ---
 title: Finish your code reviews in 5 minutes.
 layout: post
+hero: bugs.svg
 permalink: /use-cases/finish-your-code-reviews-in-5-minutes/
 tags:
 - 'code review'

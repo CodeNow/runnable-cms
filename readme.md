@@ -9,11 +9,8 @@
 ### Development
 
 1. Clone this repo.
-2. Run `bundle update`
-3. Run `bundle install`
-4. Run `bundle exec jekyll build`
-5. Run `bundle exec jekyll serve`
-6. Open `localhost:4000/` in your browser.
+2. Run `rake serve`
+3. Open `localhost:4000/use-cases` in your browser.
 
 ## Deploying
 

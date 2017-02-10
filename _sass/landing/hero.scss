@@ -1,4 +1,14 @@
 .hero {
+  background: linear-gradient($purple-light, $purple-blue);
+
+  &.hero-img {
+    background-position: center;
+    background-size: cover;
+
+    &::after {
+      opacity: .6;
+    }
+  }
 
   .h1,
   .h2,

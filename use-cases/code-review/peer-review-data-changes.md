@@ -1,6 +1,7 @@
 ---
 title: Peer review data migrations and database schema changes.
 layout: post
+hero: containers.svg
 permalink: /use-cases/peer-review-data-migrations-and-database-schema-changes/
 tags:
 - 'code review'
@@ -16,9 +17,9 @@ With Runnable, team members are able to review these tests, sign off on them, an
 
 Databases are then seeded with data provided by the developer. This helps to simplify test migrations and schema changes in sync with the rest of one’s development stack. Using isolation in Runnable is simple:
 
-1. First, developers will need to create a branch on git with their migration changes. 
-2. After logging in to Runnable, they will then find their branch and click, ‘Settings,’ followed by, ‘Isolate Branch.’ 
+1. First, developers will need to create a branch on git with their migration changes.
+2. After logging in to Runnable, they will then find their branch and click, ‘Settings,’ followed by, ‘Isolate Branch.’
 3. Once the dialogue selection appears, developers can then select the applicable services they will need to test their data migration changes end-to-end.
-4. Verify all branches are aligned. 
+4. Verify all branches are aligned.
 
 Once completed, this process quickly creates a copy of all other services needed, including the aforementioned databases with their specified dataset intact. By using Runnable, developers are ensured that their databases are properly configured and networked together so they are ready for use right away.

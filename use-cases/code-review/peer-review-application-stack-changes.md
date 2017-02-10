@@ -1,6 +1,7 @@
 ---
 title: Peer review changes in your application stack quickly.
 layout: post
+hero: communication.svg
 permalink: /use-cases/peer-review-changes-in-your-application-stack-quickly/
 tags:
 - 'code review'
