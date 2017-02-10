@@ -2,10 +2,12 @@
 layout: default
 ---
 
+{% if page.hero %}
+<div class="grid-block col align-center hero hero-img">
+  <style>.hero::after {background-image: url({{ base.url }}images/hero/{{ page.hero }});</style>
+{% else %}
 <div class="grid-block col align-center hero">
-  {% if page.hero %}
-    <style>.hero::after {background-image: url({{ base.url }}images/hero/{{ page.hero }}); background-position: center; background-size: cover;}</style>
-  {% endif %}
+{% endif %}
   <div class="h1 text-center weight-strong margin-top-sm">{{ page.title }}</div>
 </div>
 
