@@ -4,7 +4,7 @@
   border-top: 1px solid $gray-lighter;
   margin: 0 auto;
   overflow: visible;
-  padding-top: 30px;
+  padding-top: 15px;
   position: relative;
 
   @include media(xxs) {
@@ -24,9 +24,21 @@
   .link-wrapper {
     padding: 60px;
   }
+  .link-group {
+    margin-bottom: 20px;
+
+  }
+
+  .subtitle {
+    color: $gray-light;
+    margin: 20px 0 0 34px;
+    font-size: 15px;
+    line-height: 20px;
+
+  }
 
   .link {
-    color: $gray-light;
+    color: $gray;
     font-size: 19px;
     line-height: 24px;
     margin: 15px 27px;
@@ -34,7 +46,7 @@
 
     &:hover,
     &:active {
-      color: $gray;
+      color: $gray-dark;
     }
   }
 
