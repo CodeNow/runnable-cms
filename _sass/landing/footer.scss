@@ -31,17 +31,22 @@
 
   .subtitle {
     color: $gray-light;
-    margin: 20px 0 5px 33px;
+    margin: 15px 0 15px 33px;
     font-size: 16px;
     line-height: 20px;
+
+    @include media(xs) {
+      align-content: center;
+      margin: 15px 0 15px 27px;
+    }
 
   }
 
   .link {
     color: $gray;
     font-size: 19px;
-    line-height: 30px;
-    margin: 0 0 10px 27px;
+    line-height: 21px;
+    margin: 0 0 24px 27px;
     text-decoration: none;
 
     &:hover,
