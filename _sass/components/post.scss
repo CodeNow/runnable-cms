@@ -1,0 +1,33 @@
+.post {
+  border: 1px solid $gray-lighter;
+  border-radius: 6px;
+
+  +.post {
+    margin-top: $md;
+  }
+
+  @include media(xs) {
+    width: 100%;
+  }
+
+  .post-title {
+    font-size: 20px;
+  }
+
+  .post-excerpt {
+    font-size: 14px;
+  }
+
+  .post-tag {
+    display: flex;
+    flex-shrink: 1;
+    margin: 0;
+  }
+
+  .post-tag-group {
+    border-top: 1px solid $gray-lighter;
+    margin: 0;
+    padding: $sm;
+    width: 100%;
+  }
+}
